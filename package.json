@@ -1,0 +1,30 @@
+{
+  "name": "todo-fancy-api-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irianto223/todo-fancy-api-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irianto223/todo-fancy-api-2/issues"
+  },
+  "homepage": "https://github.com/irianto223/todo-fancy-api-2#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.3",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.9"
+  }
+}
